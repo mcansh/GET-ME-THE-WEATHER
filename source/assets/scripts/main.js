@@ -55,7 +55,10 @@ if (navigator.geolocation) {
         $('.conditions').text(`It's ${conditions}.`);
 
         let conditionsIcon = data.currently.icon;
-        if (conditionsIcon === 'partly-cloudy-night') {
+        if (conditionsIcon === 'partly-cloudy-day') {
+          $('.icon').addClass('partly-cloudy-day');
+        }
+        else if (conditionsIcon === 'partly-cloudy-night') {
           $('.icon').addClass('partly-cloudy-night');
         }
         else if (conditionsIcon === 'clear-day') {
