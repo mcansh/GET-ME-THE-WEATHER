@@ -1,0 +1,99 @@
+@import "normalize"
+@import "bourbon"
+@import "fonts/gotham/gotham"
+
+$font: "Gotham", sans-serif
+
+*
+  margin: 0
+  box-sizing: border-box
+
+body
+  font-weight: $font
+
+h1,h2,h3,h4,h5,h6,strong
+  font-weight: 300
+  margin: 0
+
+header
+  height: 5em
+  background: #E53A40
+  color: white
+  display: flex
+  justify-content: center
+  flex-direction: column
+  align-items: center
+  text-align: center
+
+
+footer
+  position: absolute
+  bottom: 0
+  left: 0
+  right: 0
+  height: 3em
+  margin: 0 auto
+  display: flex
+  justify-content: center
+  align-items: center
+  text-align: center
+
+  a
+    color: rgba(black, 0.37)
+    text-decoration: none
+    transition: 300ms all ease-in-out
+    margin: 0 10px
+    &:hover
+      color: black
+
+
+#content-wrapper
+  min-height: calc(100vh - 5em - 3em)
+  width: 100vw
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  text-align: center
+
+.hidden
+  height: 0px
+  visibility: hidden
+  opacity: 0
+  margin: 0
+
+
+.weather-condition-wrap
+  display: flex
+  align-items: center
+  .icon
+    +size(100px)
+    background:
+      size: cover
+      position: center
+    &.partly-cloudy-night
+      background-image: url(../img/Cloud-Moon.svg)
+    &.clear-day
+      background-image: url(../img/Sun.svg)
+    &.clear-night
+      background-image: url(../img/Moon-Last-Quarter.svg)
+    &.rain
+      background-image: url(../img/Cloud-Rain.svg)
+    &.snow
+      background-image: url(../img/Cloud-Snow.svg)
+    &.sleet
+      background-image: url(../img/Cloud-Rain.svg)
+    &.wind
+      background-image: url(../img/Wind.svg)
+    &.fog
+      background-image: url(../img/Cloud-Fog.svg)
+    &.cloudy
+      background-image: url(../img/Cloud-Sun.svg)
+    &.hail
+      background-image: url(../img/Cloud-Hail.svg)
+    &.thunderstorm
+      background-image: url(../img/Cloud-Lightning.svg)
+    &.torndao
+      background-image: url(../img/Tornado.svg)
+    &.dead
+      background-image: url(../img/dead.png)
