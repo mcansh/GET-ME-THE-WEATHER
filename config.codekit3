@@ -540,7 +540,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/favicon-128.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/source\/assets\/img\/favicon-144.png": {
 		"ft": 32768,
@@ -548,7 +548,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/favicon-144.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/source\/assets\/img\/favicon-152.png": {
 		"ft": 32768,
@@ -556,7 +556,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/favicon-152.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/source\/assets\/img\/favicon-195.png": {
 		"ft": 32768,
@@ -572,7 +572,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/favicon-228.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/source\/assets\/img\/favicon-32.png": {
 		"ft": 32768,
@@ -580,7 +580,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/favicon-32.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/source\/assets\/img\/favicon-57.png": {
 		"ft": 32768,
@@ -588,7 +588,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/favicon-57.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/source\/assets\/img\/favicon-72.png": {
 		"ft": 32768,
@@ -596,7 +596,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/favicon-72.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/source\/assets\/img\/favicon-96.png": {
 		"ft": 32768,
@@ -604,7 +604,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/favicon-96.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/source\/assets\/img\/favicon.ico": {
 		"ft": 8192,
@@ -897,7 +897,7 @@
 	"displayValue": "GET-ME-THE-WEATHER",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 504173610
+	"lastBuiltDate": 504198278
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
