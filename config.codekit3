@@ -895,7 +895,7 @@
 "projectAttributes": {
 	"creationDate": 504155841,
 	"displayValue": "GET-ME-THE-WEATHER",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-yesBaby",
 	"lastBuiltDate": 504198278
 	},

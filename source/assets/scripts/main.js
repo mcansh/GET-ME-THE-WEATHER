@@ -49,7 +49,7 @@ if (navigator.geolocation) {
         /* eslint-disable */
 
         let temp = Math.round(data.currently.temperature);
-        $('.temp').text(`It's currently ${temp} degrees outside.`);
+        $('.temp').text(`It's currently ${temp}ºF degrees outside.`);
 
         let conditions = data.currently.summary;
         $('.conditions').text(`It's ${conditions}.`);
@@ -57,48 +57,6 @@ if (navigator.geolocation) {
         let conditionsIcon = data.currently.icon;
 
         $('.icon').addClass(conditionsIcon);
-        // if (conditionsIcon === 'partly-cloudy-day') {
-        //   $('.icon').addClass('partly-cloudy-day');
-        // }
-        // else if (conditionsIcon === 'partly-cloudy-night') {
-        //   $('.icon').addClass('partly-cloudy-night');
-        // }
-        // else if (conditionsIcon === 'clear-day') {
-        //   $('icon').addClass('clear-day');
-        // }
-        // else if (conditionsIcon === 'clear-night') {
-        //   $('icon').addClass('clear-night');
-        // }
-        // else if (conditionsIcon === 'rain') {
-        //   $('icon').addClass('rain');
-        // }
-        // else if (conditionsIcon === 'snow') {
-        //   $('icon').addClass('snow');
-        // }
-        // else if (conditionsIcon === 'sleet') {
-        //   $('icon').addClass('sleet');
-        // }
-        // else if (conditionsIcon === 'wind') {
-        //   $('icon').addClass('wind');
-        // }
-        // else if (conditionsIcon === 'fog') {
-        //   $('icon').addClass('fog');
-        // }
-        // else if (conditionsIcon === 'cloudy') {
-        //   $('icon').addClass('cloudy');
-        // }
-        // else if (conditionsIcon === 'hail') {
-        //   $('icon').addClass('hail');
-        // }
-        // else if (conditionsIcon === 'thunderstorm') {
-        //   $('icon').addClass('thunderstorm');
-        // }
-        // else if (conditionsIcon === 'torndao') {
-        //   $('icon').addClass('torndao');
-        // }
-        // else {
-        //   $('icon').addClass('dead');
-        // }
 
         let wind = Math.round(data.currently.windSpeed);
 
