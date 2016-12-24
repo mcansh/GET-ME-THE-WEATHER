@@ -537,7 +537,7 @@ footer {
     width: 100px;
     background-size: cover;
     background-position: center; }
-    .weather-condition-wrap .icon.partly-cloudy-day {
+    .weather-condition-wrap .icon.partly-cloudy-day, .weather-condition-wrap .icon.overcast {
       background-image: url(../img/Cloud-Sun.svg); }
     .weather-condition-wrap .icon.partly-cloudy-night {
       background-image: url(../img/Cloud-Moon.svg); }
