@@ -30,17 +30,21 @@
   </head>
   <body>
     <header>
-      <h1>Just tell me the weather already</h1>
+      <form>
+        <input class="location" type="text" placeholder="Weather">
+      </form>
     </header>
     <div id="content-wrapper">
-      <h1 id="loading">Pulling in the weather...</h1>
-      <h1 class="location"></h1>
-      <h1 class="temp"></h1>
+      <div id="loading">
+        <h1>Gathering weather data...</h1>
+      </div>
+      <div class="temp">Temp</div>
       <div class="weather-condition-wrap">
-        <h1 class="conditions"></h1>
+        <div class="conditions"></div>
         <div class="icon"></div>
       </div>
-      <h1 class="wind"></h1>
+      <div class="wind">wind</div>
+      <div class="later">later today</div>
     </div>
     <footer><a href="https://darksky.net/poweredby/" target="_blank">Powered by Dark Sky</a><a href="https://github.com/mcansh/GET-ME-THE-WEATHER" target="_blank">GitHub</a><a href="https://twitter.com/logansmcansh" target="_blank">Twitter</a></footer>
     <script async defer src="assets/scripts/main.min.js"></script>

@@ -32,20 +32,23 @@ html(lang="en")
     meta(name="twitter:image" content="SOME URL HERE")
   body
     header
-      h1 Just tell me the weather already
+      form
+        input.location(type="text" placeholder="Weather")
       
     #content-wrapper
-      h1#loading Pulling in the weather...
-      
-      h1.location
-      
-      h1.temp
+      #loading
+        h1 Gathering weather data...
+
+      .temp Temp
       
       .weather-condition-wrap
-        h1.conditions
+        .conditions
         .icon
         
-      h1.wind
+      .wind wind
+      
+      .later later today
+      
       
     footer
       a(href="https://darksky.net/poweredby/" target="_blank") Powered by Dark Sky
