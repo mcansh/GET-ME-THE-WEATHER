@@ -2,11 +2,11 @@
 
 let latitude,
     longitude,
-    key = `8d82c87ab61ad64f2381f998a385bd14`,
+    key = TOKEN,
     url,
     reverseGeocode,
     geocode,
-    zip,
+    search,
     conditionsIcon;
 
 function doEverything() {
@@ -83,10 +83,15 @@ function doEverything() {
         }
       });
 
+    },
+    function(error) {
+      if (error.code == error.PERMISSION_DENIED) {
+        $('#loading h1').text('I need your location')
+      }
     });
   }
   else {
-    $('#content-wrapper').text('geolocation not supported, please upgrade your browser');
+    $('#loading h1').text('geolocation not supported, please upgrade your browser');
   }
 }
 
@@ -94,22 +99,22 @@ doEverything();
 
 
 $('input').keyup(function() {
-  zip = $(this).val();
+  search = $(this).val();
 });
 
 
 function submitForm() {
   $('form').submit(function(event) {
     event.preventDefault();
-    zipToLocation(zip);
+    searchToLocation(search);
     /* eslint-disable */
-    console.log(`converting zip code: ${zip} to lat, long`);
+    console.log(`converting search: ${search} to lat, long`);
     /* eslint-disable */
   });
 }
 
-function zipToLocation() {
-  window.geocode = `https://maps.googleapis.com/maps/api/geocode/json?address=${zip}`
+function searchToLocation() {
+  window.geocode = `https://maps.googleapis.com/maps/api/geocode/json?address=${search}`
   console.log(geocode);
 
   $.ajax({
@@ -118,15 +123,15 @@ function zipToLocation() {
     success: function(location) {
       window.latitude = location.results[0].geometry.location.lat;
       window.longitude = location.results[0].geometry.location.lng;
-      let city = location.results[0].address_components[1].short_name;
+      window.search = location.results[0].address_components[1].short_name;
 
 
-      $('.location').show().val(city);
+      $('.location').show().val(search);
 
       window.url = `https://api.darksky.net/forecast/${key}/${latitude},${longitude}`;
 
       /* eslint-disable */
-      console.log(`got ${city} from latitude/longitude`);
+      console.log(`got ${search} from latitude/longitude`);
       /* eslint-disable */
 
     },
@@ -174,6 +179,6 @@ function zipToLocation() {
 
 document.onkeydown=function(){
   if(window.event.keyCode=='13'){
-    submitForm()
+    submitForm();
   }
 }
