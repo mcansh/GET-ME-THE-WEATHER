@@ -75,7 +75,9 @@ if (navigator.geolocation) {
       error: function() {
         /* eslint-disable */
         console.log('Error gathering weather, please refresh and try again.');
+        console.log('or hit api limit, come back tomorrow');
         /* eslint-disable */
+        $('#loading h1').text(`Sorry, hit api limit, come back tomorrow...`)
       }
     });
 

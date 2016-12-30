@@ -466,11 +466,7 @@ textarea {
   --main: #E53A40; }
 
 body {
-<<<<<<< HEAD
   font-family: "SF UI Display", sans-serif;
-=======
-  font-weight: "Gotham", sans-serif;
->>>>>>> 408f461194f4b7b3941b7d3fed463894783db70c
   min-height: 100vh; }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -639,5 +635,6 @@ footer {
   left: 0;
   top: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+  margin: 30px; }
 /*# sourceMappingURL=style.css.map */
