@@ -55,6 +55,7 @@ if (navigator.geolocation) {
         /* eslint-disable */
 
         let temp = Math.round(data.currently.temperature);
+
         $('.temp').show().text(`It's currently ${temp} degrees outside.`);
 
         let conditions = data.currently.summary;
