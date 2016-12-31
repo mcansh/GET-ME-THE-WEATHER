@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/docs\/.gitignore",
+		"oF": 1
+		},
 	"\/docs": {
 		"ft": 65536,
 		"oA": 1,
@@ -879,7 +885,16 @@
 		"sC": 3,
 		"tS": 1
 		},
-	"\/source\/index.pug": {
+	"\/source\/assets\/scripts\/tokens.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/docs\/assets\/scripts\/tokens.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/source\/index.jade": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
@@ -897,7 +912,7 @@
 	"displayValue": "GET-ME-THE-WEATHER",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 504198278
+	"lastBuiltDate": 504840391
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
