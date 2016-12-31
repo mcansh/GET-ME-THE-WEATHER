@@ -912,6 +912,14 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/source\/donate\/index.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/docs\/donate\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/source\/index.jade": {
 		"cOD": 1,
 		"ft": 512,
