@@ -21,29 +21,6 @@
 		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
-	"\/source\/assets\/css\/fonts\/sf\/sf.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/docs\/assets\/css\/fonts\/sf\/sf-ck.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/assets\/css\/normalize.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/docs\/assets\/css\/normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/source\/assets\/css\/style.sass": {
 		"aP": 1,
 		"bl": 0,
@@ -899,15 +876,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/assets\/scripts\/jquery-3.1.1.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/docs\/assets\/scripts\/jquery-3.1.1.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
 	"\/source\/assets\/scripts\/main.js": {
 		"ft": 64,
 		"mi": 1,
@@ -944,7 +912,7 @@
 	"displayValue": "GET-ME-THE-WEATHER",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 504850855
+	"lastBuiltDate": 504853144
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

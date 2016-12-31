@@ -517,6 +517,14 @@ form {
     color: white; }
   .location::placeholder {
     color: white; }
+  .location:focus::-webkit-input-placeholder {
+    color: transparent; }
+  .location:focus::-moz-placeholder {
+    color: transparent; }
+  .location:focus:-ms-input-placeholder {
+    color: transparent; }
+  .location:focus::placeholder {
+    color: transparent; }
 
 .location,
 input[type="submit"],
