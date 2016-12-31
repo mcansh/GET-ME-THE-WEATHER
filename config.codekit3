@@ -21,6 +21,24 @@
 		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/docs\/README.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/source\/assets\/css\/style.sass": {
 		"aP": 1,
 		"bl": 0,
@@ -912,7 +930,7 @@
 	"displayValue": "GET-ME-THE-WEATHER",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 504854298
+	"lastBuiltDate": 504855254
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
