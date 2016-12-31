@@ -1,0 +1,167 @@
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.svg#SFUIText-RegularItalic') format('svg');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.svg#SFUIText-UltralightItalic') format('svg');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.svg#SFUIText-SemiboldItalic') format('svg');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.svg#SFUIText-Semibold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.svg#SFUIText-BoldItalic') format('svg');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.svg#SFUIText-MediumItalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Regular.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Regular.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Regular.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Regular.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Regular.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Regular.svg#SFUIText-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.svg#SFUIText-Ultralight') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Light.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Light.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Light.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Light.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Light.svg#SFUIText-Light') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.svg#SFUIText-HeavyItalic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.svg#SFUIText-Heavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Bold.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Bold.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Bold.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Bold.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Bold.svg#SFUIText-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Medium.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-Medium.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Medium.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Medium.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Medium.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-Medium.svg#SFUIText-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.eot');
+	src: url('https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.woff2') format('woff2'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.woff') format('woff'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.ttf') format('truetype'),
+		url('https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.svg#SFUIText-LightItalic') format('svg');
+	font-weight: 200;
+	font-style: italic;
+}

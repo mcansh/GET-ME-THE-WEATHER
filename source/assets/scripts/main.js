@@ -1,10 +1,9 @@
-// @codekit-prepend 'tokens'
 // @codekit-prepend 'jquery-3.1.1.min'
+// @codekit-prepend 'tokens'
 
 let latitude,
     longitude,
     url,
-    key = 'a6273abb10867abab0e52678a696798b',
     reverseGeocode,
     geocode,
     search,

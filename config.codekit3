@@ -11,9 +11,9 @@
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/docs\/.gitignore",
-		"oF": 1
+		"oF": 0
 		},
 	"\/docs": {
 		"ft": 65536,
@@ -21,23 +21,28 @@
 		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
-	"\/readme.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/docs\/readme.html",
+	"\/source\/assets\/css\/fonts\/sf\/sf.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/docs\/assets\/css\/fonts\/sf\/sf-ck.css",
 		"oF": 0,
-		"oFM": 0,
+		"oS": 0
+		},
+	"\/source\/assets\/css\/normalize.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/docs\/assets\/css\/normalize.css",
+		"oF": 0,
 		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"uL": 1
 		},
 	"\/source\/assets\/css\/style.sass": {
 		"aP": 1,
@@ -894,6 +899,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/assets\/scripts\/jquery-3.1.1.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/docs\/assets\/scripts\/jquery-3.1.1.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/source\/assets\/scripts\/main.js": {
 		"ft": 64,
 		"mi": 1,
@@ -930,7 +944,7 @@
 	"displayValue": "GET-ME-THE-WEATHER",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 504840391
+	"lastBuiltDate": 504850301
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
