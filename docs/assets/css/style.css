@@ -360,104 +360,6 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-RegularItalic.svg#SFUIText-RegularItalic") format("svg");
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-UltralightItalic.svg#SFUIText-UltralightItalic") format("svg");
-  font-weight: 100;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-SemiboldItalic.svg#SFUIText-SemiboldItalic") format("svg");
-  font-weight: 600;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Semibold.svg#SFUIText-Semibold") format("svg");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-BoldItalic.svg#SFUIText-BoldItalic") format("svg");
-  font-weight: 700;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-MediumItalic.svg#SFUIText-MediumItalic") format("svg");
-  font-weight: 500;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Regular.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Regular.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Regular.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Regular.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Regular.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Regular.svg#SFUIText-Regular") format("svg");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Ultralight.svg#SFUIText-Ultralight") format("svg");
-  font-weight: 100;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Light.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Light.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Light.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Light.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Light.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Light.svg#SFUIText-Light") format("svg");
-  font-weight: 200;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-HeavyItalic.svg#SFUIText-HeavyItalic") format("svg");
-  font-weight: 900;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Heavy.svg#SFUIText-Heavy") format("svg");
-  font-weight: 900;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Bold.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Bold.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Bold.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Bold.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Bold.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Bold.svg#SFUIText-Bold") format("svg");
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Medium.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-Medium.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Medium.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Medium.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Medium.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-Medium.svg#SFUIText-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'SF UI Text';
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.eot");
-  src: url("https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.eot?#iefix") format("embedded-opentype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.woff2") format("woff2"), url("https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.woff") format("woff"), url("https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.ttf") format("truetype"), url("https://mcan.sh/assets/fonts/sf/SFUIText-LightItalic.svg#SFUIText-LightItalic") format("svg");
-  font-weight: 200;
-  font-style: italic; }
-
 * {
   margin: 0;
   box-sizing: border-box; }
@@ -466,77 +368,19 @@ textarea {
   --main: #E53A40; }
 
 body {
-  font-family: "SF UI Display", sans-serif;
-  min-height: 100vh; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: 100vh;
+  width: 90vw;
+  max-width: 800px;
+  margin: 0 auto; }
 
 h1, h2, h3, h4, h5, h6, strong {
   font-weight: 300;
   margin: 0; }
 
-header {
-  height: 5em;
-  background: var(--main);
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center; }
-
-form {
-  width: 100%;
-  height: 100%;
-  position: relative; }
-
-.location {
-  width: 100%;
-  height: 100%;
-  font-size: 2em;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  outline: none;
-  border: none;
-  background: none;
-  text-align: center;
-  color: white; }
-  .location::-webkit-input-placeholder {
-    color: white; }
-  .location::-moz-placeholder {
-    color: white; }
-  .location:-ms-input-placeholder {
-    color: white; }
-  .location::placeholder {
-    color: white; }
-  .location:focus::-webkit-input-placeholder {
-    color: transparent; }
-  .location:focus::-moz-placeholder {
-    color: transparent; }
-  .location:focus:-ms-input-placeholder {
-    color: transparent; }
-  .location:focus::placeholder {
-    color: transparent; }
-
-.location,
-input[type="submit"],
-.temp,
-.weather-condition-wrap,
-.wind,
-.later {
-  display: none; }
-
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   left: 0;
   right: 0;
   height: 3em;
@@ -544,6 +388,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -581,87 +427,37 @@ a {
               transform: scaleX(1);
       background: black; }
 
-#content-wrapper {
-  max-width: 800px;
-  width: 80%;
-  margin: 0 auto;
-  min-height: calc(100vh - 5em);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-h2 {
-  margin: 5px 0; }
-
-.weather-condition-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
-  .weather-condition-wrap .icon {
-    height: 100px;
-    width: 100px;
-    background-size: cover;
-    background-position: center; }
-    .weather-condition-wrap .icon.partly-cloudy-day, .weather-condition-wrap .icon.overcast {
-      background-image: url(../img/Cloud-Sun.svg); }
-    .weather-condition-wrap .icon.partly-cloudy-night {
-      background-image: url(../img/Cloud-Moon.svg); }
-    .weather-condition-wrap .icon.clear-day {
-      background-image: url(../img/Sun.svg); }
-    .weather-condition-wrap .icon.clear-night {
-      background-image: url(../img/Moon-Last-Quarter.svg); }
-    .weather-condition-wrap .icon.rain {
-      background-image: url(../img/Cloud-Rain.svg); }
-    .weather-condition-wrap .icon.snow {
-      background-image: url(../img/Cloud-Snow.svg); }
-    .weather-condition-wrap .icon.sleet {
-      background-image: url(../img/Cloud-Rain.svg); }
-    .weather-condition-wrap .icon.wind {
-      background-image: url(../img/Wind.svg); }
-    .weather-condition-wrap .icon.fog {
-      background-image: url(../img/Cloud-Fog.svg); }
-    .weather-condition-wrap .icon.cloudy {
-      background-image: url(../img/Cloud-Sun.svg); }
-    .weather-condition-wrap .icon.hail {
-      background-image: url(../img/Cloud-Hail.svg); }
-    .weather-condition-wrap .icon.thunderstorm {
-      background-image: url(../img/Cloud-Lightning.svg); }
-    .weather-condition-wrap .icon.torndao {
-      background-image: url(../img/Tornado.svg); }
-    .weather-condition-wrap .icon.dead {
-      background-image: url(../img/dead.png); }
-
-#loading {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: 30px; }
+.icon {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: center; }
+  .icon.partly-cloudy-day, .icon.overcast {
+    background-image: url(../img/Cloud-Sun.svg); }
+  .icon.partly-cloudy-night {
+    background-image: url(../img/Cloud-Moon.svg); }
+  .icon.clear-day {
+    background-image: url(../img/Sun.svg); }
+  .icon.clear-night {
+    background-image: url(../img/Moon-Last-Quarter.svg); }
+  .icon.rain {
+    background-image: url(../img/Cloud-Rain.svg); }
+  .icon.snow {
+    background-image: url(../img/Cloud-Snow.svg); }
+  .icon.sleet {
+    background-image: url(../img/Cloud-Rain.svg); }
+  .icon.wind {
+    background-image: url(../img/Wind.svg); }
+  .icon.fog {
+    background-image: url(../img/Cloud-Fog.svg); }
+  .icon.cloudy {
+    background-image: url(../img/Cloud-Sun.svg); }
+  .icon.hail {
+    background-image: url(../img/Cloud-Hail.svg); }
+  .icon.thunderstorm {
+    background-image: url(../img/Cloud-Lightning.svg); }
+  .icon.torndao {
+    background-image: url(../img/Tornado.svg); }
+  .icon.dead {
+    background-image: url(../img/dead.png); }
 /*# sourceMappingURL=style.css.map */
